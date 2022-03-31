@@ -1,0 +1,12 @@
+div {
+    background-color: lightgray;
+    border: 50px solid green;
+    width: 300px;
+    padding: 110px 50px 110px 50px;
+    height: 100px;
+    font-size: 40px;
+    color: green;
+    background-clip: content-box ;
+    text-align: center;
+    margin: auto;
+}
