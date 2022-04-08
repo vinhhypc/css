@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid view</title>
+    <style>
+        @media screen and (min-width:576px){
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+                }
+                /* tìm trên thư viện bootstrap */
+        @media screen and (min-width:768px){
+                .col-sm-1 {width: 8.33%;}
+                .col-sm-2 {width: 16.66%;}
+                .col-sm-3 {width: 25%;}
+                .col-sm-4 {width: 33.33%;}
+                .col-sm-5 {width: 41.66%;}
+                .col-sm-6 {width: 50%;}
+                .col-sm-7 {width: 58.33%;}
+                .col-sm-8 {width: 66.66%;}
+                .col-sm-9 {width: 75%;}
+                .col-sm-10 {width: 83.33%;}
+                .col-sm-11 {width: 91.66%;}
+                .col-sm-12 {width: 100%;}
+            }
+            @media screen and (min-width:992px){
+                .col-lg-1 {width: 8.33%;}
+                .col-lg-2 {width: 16.66%;}
+                .col-lg-3 {width: 25%;}
+                .col-lg-4 {width: 33.33%;}
+                .col-lg-5 {width: 41.66%;}
+                .col-lg-6 {width: 50%;}
+                .col-lg-7 {width: 58.33%;}
+                .col-lg-8 {width: 66.66%;}
+                .col-lg-9 {width: 75%;}
+                .col-lg-10 {width: 83.33%;}
+                .col-lg-11 {width: 91.66%;}
+                .col-lg-12 {width: 100%;}
+            }    
+            header{
+                background-color: brown;
+                height: 100px;
+            }
+            aside.left, article, aside.right {
+                float: left;
+                height: 200px;
+            }
+            aside.left{
+                background-color: rgb(195, 204, 212);
+            }
+            article {
+                background-color: antiquewhite;
+            }
+            aside.right {
+                background-color: bisque;
+            }
+            div {
+                float:left;
+                background-color: aquamarine;
+                height: 200px;
+                border: 1px solid black;
+                box-sizing: border-box;
+            }
+            footer {
+                clear: both;
+                background-color: tomato;
+                height: 100px;
+            }
+            
+    </style>
+</head>
+<body>
+    <header class="col-12 col-sm-12 col-lg-12 "></header>
+    <aside class="left col-12 col-sm-12 col-lg-3"></aside>
+    <article class="col-12 col-sm-9 col-lg-6"></article>
+    <aside class="right col-12 col-sm-3 col-lg-3"></aside>
+    <div class="col-12 col col-sm-6 col-lg-3"></div>
+    <div class="col-12 col col-sm-6 col-lg-3"></div>
+    <div class="col-12 col col-sm-6 col-lg-3"></div>
+    <div class="col-12 col col-sm-6 col-lg-3"></div>
+    <footer class="col-12 col-sm-12 col-lg-12"></footer>
+</body>
+</html>
